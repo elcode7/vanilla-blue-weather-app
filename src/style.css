@@ -60,9 +60,28 @@ li:first-letter {
 .float-left {
   float: left;
 }
-
 .weather-temperature .active {
   color: rgb(33, 33, 33);
   cursor: default;
   text-decoration: none;
+}
+
+.weather-temperature {
+  text-decoration: none;
+  coursor: default;
+}
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+}
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+.weather-forecast-temperature {
+  font-size: 13px;
 }
